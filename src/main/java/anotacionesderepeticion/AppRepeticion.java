@@ -25,7 +25,7 @@ public class AppRepeticion {
 
         Lenguajes len = LenguajeProgramacion.class.getAnnotation(Lenguajes.class);
         for(Lenguaje elemento : len.value()){
-            System.out.println("elemento.value() = " + elemento.value()); 
+            System.out.println("elemento.value() = " + elemento.value());
         }
 
     }
